@@ -22,6 +22,12 @@ const Layout = () => {
                 <li>
                     <link to="/creator">Creator</link>
                 </li>
+                <li>
+                    <Link to="/navbar.js">Navbar</Link>
+                </li>
+                <li>
+                    <Link to="/navbar.css">Navbarcss</Link>
+                </li>
             </ul>
         </nav>
         </>
