@@ -11,27 +11,23 @@ const Layout = () => {
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/about">About</Link>
+                    <Link to="/shoplashes">Shoplashes</Link>
                 </li>
                 <li>
-                    <Link to="/layout">Layout</Link>
+                    <Link to="/about">About</Link>
                 </li>
                 <li>
                     <Link to="/contact">Contact</Link>
                 </li>
                 <li>
-                    <link to="/creator">Creator</link>
-                </li>
-                <li>
-                    <Link to="/navbar.js">Navbar</Link>
-                </li>
-                <li>
-                    <Link to="/navbar.css">Navbarcss</Link>
+                    <Link to="layout">Layout</Link>
                 </li>
             </ul>
         </nav>
+
+        <Outlet />
         </>
-    )
+    );
 }
 
 

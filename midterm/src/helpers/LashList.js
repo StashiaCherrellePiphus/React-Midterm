@@ -1,8 +1,8 @@
-import Indivials from "midterm/src/images/indivials.jpg";
-import Mink from "midterm/src/images/3d mink.webp";
-import Pairs from "midterm/src/images/5 pair.webp";
-import Bulk from "midterm/src/images/50 bulk.webp"
-import Color from "midterm/src/images/color eyelashes.jpg";
+import Indivials from "../images/indivials.jpg";
+import Mink from "../images/3d mink.webp";
+import Pairs from "../images/5 pair.webp";
+import Bulk from "../images/50 bulk.webp"
+import Color from "../images/color eyelashes.jpg";
 
 
 
@@ -34,4 +34,4 @@ export const LashList = [
         image: Color,
         price: "4.99"
     },
-]
+];

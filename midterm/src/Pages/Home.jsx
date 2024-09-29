@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import BannerImage from '../images/backgroundImage';
+import BannerImage from '../images/backgroundImage.jpg';
+import "../styles/Home.css";
 
 function Home() {
     return(
@@ -8,14 +9,12 @@ function Home() {
             <div className="headerContainer" style={{ backgroundImage: `url(${BannerImage})` }}>
                 <h1>Stashia Lashes</h1>   
                 <p>Every Style To Fit Your Day!</p> 
-                <Link to="/menu">
+                <Link to="/shoplashes">
                 <button>PLACE YOUR ORDER TODAY</button> 
                 </Link>
          </div>
         </div>
-    ) {
-        
-    }
+    );
 };
 
 export default Home;
