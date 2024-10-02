@@ -7,10 +7,10 @@
   
   .aboutTop {
     width: 100%;
-    height: 45%;
+    height: 200%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
   

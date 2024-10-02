@@ -1,18 +1,18 @@
 import React from "react";
-import { LashList } from "../helpers/LashList"
-import LashItem from "../components/LashItem";
-import "../styles/LashItem.css";
+import { LashList } from '../helpers/LashList';
+import LashItem from '../components/LashItem';
+import '../styles/LashItem.css';
 
 function ShopLashes() {
     return (
         <div className="shoplashes">
-            <h1 className="lashesTitle">Our Lashes</h1>
+            <h1 className="lashesTitle">Items</h1>
             <div className="lashList">
-                {LashList.map((LashList, key) => {
+                {LashList.map((lashList, key) => {
                 return (
                 <LashItem
                 key={key}
-                 image={LashItem.name} 
+                 image={LashItem.image} 
                  name={LashItem.name} 
                  price={LashItem.price} 
                  />

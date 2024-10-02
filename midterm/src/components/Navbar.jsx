@@ -1,11 +1,12 @@
-import React, { useState } from "react";
-import Logo from "../images/Eyelashes-Clipart-Set3.jpg";
-import { Link } from "react-router-dom";
+import React, { useState } from 'react';
+import Logo from '../images/Eyelashes-Clipart-Set3.jpg';
+import { Link } from 'react-router-dom';
 import ReorderIcon from '@mui/icons-material/Reorder';
-import "../styles/Navbar.css";
+import '../styles/Navbar.css';
 
 
 function Navbar() {
+  
     const [openLinks, setOpenLinks] = useState(false);
   
     const toggleNavbar = () => {
@@ -14,7 +15,7 @@ function Navbar() {
     return (
       <div className="navbar">
         <div className="leftSide" id={openLinks ? "open" : "close"}>
-          <img src={Logo} />
+        <img src={Logo} alt="Logo" />;
           <div className="hiddenLinks">
             <Link to="/"> Home </Link>
             <Link to="/shoplashes"> Shoplashes </Link>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Eyeleft from '../images/eyeleft.webp';
-import "../styles/Contact.css";
+import '../styles/Contact.css';
 
 function Contact () {
     return (
