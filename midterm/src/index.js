@@ -8,31 +8,30 @@ import ShopLashes from "./Pages/ShopLashes";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Layout from "./Pages/Layout";
-import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
+import { BrowserRouter, Switch, Route, } from "react-router-dom";
 
 
-export default function App() {
+ function App() {
     return (
         <div className="App">
-        <Router>
-        <Routes>
+        <BrowserRouter>
           <Navbar />
+          <Switch>
           <Route path="/" exact component={Home} />
             <Route path="/shopLashes" exact component={ShopLashes} />
             <Route path="/about" exact component={About} />
             <Route path="/contact" exact component={Contact} />
             <Route path="/layout" exact component={Layout} />
+            </Switch>
             <Footer />
-          <Route />
-      </Routes>
-    </Router>
+          </BrowserRouter>
         </div>
     );
   }
 
  
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+  const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( 
     
   <App></App>
